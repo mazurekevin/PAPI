@@ -26,8 +26,8 @@ public class DefaultPostService implements PostService{
 
     @Override
     public PostDto createPost(PostDto postDto) {
-        postDto.originId = postDto.id;
-        postDto.originName = postDto.name;
+        //postDto.originId = postDto.id;
+        //postDto.originName = postDto.name;
         Post post = mapToEntity(postDto);
         Post newPost = postRepository.save(post);
         return mapToDto(newPost);
