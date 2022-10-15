@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="database-instacode@database-instacode.cwbhmxhfqaq7.us-east-1.rds.amazonaws.com" uuid="0d062985-f125-49f9-81d4-8f6779078c83">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://database-instacode.cwbhmxhfqaq7.us-east-1.rds.amazonaws.com:3306/database-instacode</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@postgres.cwbhmxhfqaq7.us-east-1.rds.amazonaws.com" uuid="e0aafc21-e2e0-4a74-ac8f-7e5c690359f0">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://postgres.cwbhmxhfqaq7.us-east-1.rds.amazonaws.com:5432/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
